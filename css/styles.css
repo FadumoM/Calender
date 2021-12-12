@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Poppins:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Pacifico&family=Poppins:ital,wght@1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Serif&family=Pacifico&family=Poppins:ital,wght@0,300;1,300;1,400&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
@@ -7,17 +10,26 @@ nav img{
   margin: 10px;
   height: 70px;
 }
-h4{
+h1{
   text-align: center ;
   color: black;
+  font-family: Lobster;
 }
 p{
   text-align: center;
+  color: black;
+  font-family: Poppins;
 }
-.button{
-  padding: 50px;
+.submit{
+  padding: 20px;
   margin: 100px;
   display:inline-block ;
-  font-size: x-large;
+  font-size: 16px;
+  font-family:Poppins ;
   cursor: pointer;
+  color: darkslategray;
+}
+body{
+   background-position: center;
+
 }
