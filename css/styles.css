@@ -83,21 +83,7 @@ body{
   padding:100px;
   margin-left: 360px;
 }
-h4{
-  color:red;
-  font-family: Poppins;
-  margin-left: 1200px;
-  margin-top: 10px;
-  padding: 70px;
-  display:-webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: -o-flex;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  padding:20px;
-}
+
 button .submit{
   width: 300px;
   display: flex;
