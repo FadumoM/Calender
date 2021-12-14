@@ -20,7 +20,7 @@ p{
   color: black;
   font-family: Poppins;
 }
-button{
+button .button{
   padding: 20px;
   margin: 100px;
   display:inline-block ;
@@ -28,9 +28,9 @@ button{
   font-family:Poppins ;
   cursor: pointer;
   color: black;
+  width: 200px;
 }
 body{
-  background-position: center;
   font-family: Poppins;
 
 
@@ -45,4 +45,7 @@ h4{
   font-family: Poppins;
   margin-left: 1200px;
   border: black 1px;
+}
+button .submit{
+  width: 300px;
 }
