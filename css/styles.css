@@ -83,8 +83,7 @@ body{
   padding:100px;
   margin-left: 360px;
 }
-
-button .submit{
+ .submit{
   width: 300px;
   display: flex;
 }
@@ -97,4 +96,16 @@ button .a{
   text-align: center;
   padding: 50px;
   width: 380px;
+}
+.con{
+  font-family: Poppins;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+  background-color: white;
+}
+.content{
+  font-family: Poppins;
+  font-size: 20px;
 }
