@@ -6,9 +6,52 @@
   margin: 0;
   padding: 0;
 }
-nav img{
+img{
+  height: 65px;
   margin: 10px;
-  height: 70px;
+}
+ul{
+  border: transparent 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+ul a{
+  text-decoration: none;
+  font-family: poppins;
+  color: black;
+}
+header{
+  display:-webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -o-flex;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+
+  
+}
+.logo{
+  cursor: pointer;
+}
+.nav-type li{
+  display: inline-block;
+  padding:0px 15px;
+  flex-direction: row-reverse;
+  font-family:cursive;
+  color: white;
+  
+}
+.nav-type {
+  list-style: none;
+}
+
+.nav-type a li{
+  transition: .3s;
+  color: white;
 }
 h1{
   text-align: center ;
