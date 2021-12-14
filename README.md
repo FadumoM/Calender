@@ -21,7 +21,7 @@ This project is an Akan name Generator Application.
 Project is created with:
 * HTML
 * Css
-*Javascript
+* Javascript
 	
 ## Setup
 To run this project, a github account is required
