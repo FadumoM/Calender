@@ -1,11 +1,15 @@
 ### Akanaru
 
 ## Table of contents
+*[Project Name](#name)
 * [Author](#author)
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Lincence](#lincense)
+
+## Project Name
+AKANARU
 
 ## Author
 Fadumo Mohamed
