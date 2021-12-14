@@ -1,7 +1,7 @@
 ### Akanaru
 
 ## Table of contents
-*[Project Name](#name)
+.[Project Name](#name)
 * [Author](#author)
 * [General info](#general-info)
 * [Technologies](#technologies)
