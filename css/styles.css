@@ -97,6 +97,7 @@ button .a{
   padding: 50px;
   width: 380px;
 }
+
 .con{
   font-family: Poppins;
   text-align: center;
@@ -110,4 +111,8 @@ button .a{
   font-size: 20px;
   
 }
+input[type=number]{
+  width: 100px;
+}
+
 

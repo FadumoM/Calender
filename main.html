@@ -2,6 +2,8 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    
+    <script src="js/script.js"></script>
   </head>
   <header>
       <img src="images/fm.png" alt="logo" type="logo">
@@ -20,8 +22,14 @@
   <body style="background-image: url(./images/Africa.jpg);">
     <div class="container">
       <div class="form">
-        <form class="calender">
-          <input type="date" placeholder="birthday" required ><br><br>
+        <form id = "calender" class="calender" onsubmit="findDay();">
+          <label for="year">Year of birth</label>
+          <input type="number" name="year" id="year" min="1900" max="2100" placeholder="Enter year" required><br>
+          <label for="month">Birth month</label>
+          <input type="number" name="month" id="month" min="1" max="12" placeholder="Enter month"required><br>
+          <label for="day">Day of Birth</label>
+          <input type="number" name="day" id="day" min="1" max="31" placeholder="Enter day"required><br>
+          
           <p>Please enter your gender</p> 
           <input type="radio" id="Female" name="gender" value="Female">
           <label for="Female">Female</label><br>
@@ -33,5 +41,5 @@
     </div>
   
 
-  
+    
   </body>
