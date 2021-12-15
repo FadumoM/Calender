@@ -98,3 +98,11 @@ button .a{
   padding: 50px;
   width: 380px;
 }
+.con{
+  font-family: Poppins;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 600px;
+  background-color: white;
+}
